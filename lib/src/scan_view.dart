@@ -68,7 +68,7 @@ class _ScanViewState extends State<ScanView> {
                 children: [
                   Flexible(
                     child: Text(
-                      'Centralize o QR Code na área demarcada',
+                      'Centrez le QR code dans la zone marquée',
                       textAlign: TextAlign.center,
                       style: Theme.of(context).textTheme.subtitle2,
                     ),
