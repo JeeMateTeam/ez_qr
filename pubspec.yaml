@@ -1,6 +1,6 @@
 name: ez_qr
 description: QR code (scan QRCode and picture) recognition （AndroidView/UiKitView）
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/fogaiht/ez_qr
 
 environment:
