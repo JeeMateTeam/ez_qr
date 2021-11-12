@@ -68,7 +68,7 @@ class QrcodeReaderViewState extends State<QrcodeReaderView> {
     final cameraPermission = await Permission.camera.isGranted;
     var isCameraOk = !cameraPermission ? await getPermissionOfCamera() : true;
 
-    if (isCameraOk) {
+    if (isCameraOk || Platform.isIOS) {
       setState(() {
         hasCameraPermission = true;
       });
