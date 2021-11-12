@@ -359,3 +359,4 @@ class QrScanBoxPainter extends CustomPainter {
   bool shouldRebuildSemantics(QrScanBoxPainter oldDelegate) =>
       animationValue != oldDelegate.animationValue;
 }
+
